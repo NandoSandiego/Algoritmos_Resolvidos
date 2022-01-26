@@ -23,9 +23,9 @@ Para cont <- 1 ate numero faca
 FimPara
 
  Se (divi = 2) entao
-        Escreva("É primo" )
+        Escreva("É par" )
  SeNao
-      Escreva("Não é primo")
+      Escreva("É impar")
  FimSe
 
 
