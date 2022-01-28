@@ -14,6 +14,7 @@ raiz <- 0
 Repita
 
     n <- n + 1
+    
       Se (n %2 <> 0) entao
         num <- num - n
         raiz <- raiz + 1
