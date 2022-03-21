@@ -2,7 +2,7 @@ algoritmo "Somando frações"
 
 var
 
-n_fracao, cont, numerador, denominador: inteiro
+n_fracao, cont, numerador, denominador, num, den, inte: inteiro
 soma:real
 
 inicio
@@ -22,6 +22,10 @@ Para cont <- 1 ate n_fracao faca
       
      soma <- soma + (numerador/denominador)
 FimPara
+
+Se soma >= 1 entao
+
+FimSe
 
 
 Escreva("A soma é: ",soma:2:2)
