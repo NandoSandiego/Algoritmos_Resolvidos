@@ -4,6 +4,7 @@ var
 
 opc, nome, menor, letra  : caractere
 cont, tam, m_tam : inteiro
+angulo, rad, tang : real
 
 
 inicio
@@ -53,6 +54,19 @@ Escolha opc
              FimPara
 
         caso "C"
+        
+             Escreva("Digite o ângulo: ")
+             leia(angulo)
+             
+             rad <- GraupRad(angulo)
+             tang <- tan(rad)
+                  Se tang <> 0 entao
+                     EscrevaL("A tangente de ", angulo, " é ", tang:2:2)
+                    SeNao
+                     EscrevaL("Nao existe tangente para esse ângulo")
+                  FimSe
+             
+
         caso "F"
         
 FimEscolha
