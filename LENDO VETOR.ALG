@@ -12,7 +12,6 @@ cont <- 1
 num <- 1
 tot_num <- 0
 
-
 Enquanto (cont <= 10) E (num >0) faca
 
      Escreva("Digite o ",cont," º número: ")
@@ -24,6 +23,7 @@ Enquanto (cont <= 10) E (num >0) faca
      tot_num <- tot_num + 1
      
 FimEnquanto
+
 
 
 Para cont <- 1 ate tot_num faca
